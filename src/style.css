@@ -9,6 +9,16 @@ h1 {
   font-size: 36px;
 }
 
+h1 a {
+  text-decoration: none;
+  color: rgba(255, 51, 102, 0.6);
+  transition: color 2s ease-out;
+}
+
+h1 a:hover {
+  color: rgb(46, 196, 182);
+}
+
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
